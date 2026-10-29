@@ -1,0 +1,32 @@
+{
+  "tripName": "European Summer Getaway",
+  "traveler": {
+    "name": "Ahad Hashmani",
+    "contact": {
+      "email": "ahad.hashmani@example.com",
+      "phone": "+1-512-555-0142"
+    }
+  },
+  "destinations": [
+    {
+      "location": "Paris",
+      "arrivalDate": "2026-07-01",
+      "departureDate": "2026-07-05",
+      "activities": [
+        { "title": "Eiffel Tower Visit", "time": "10:00 AM" },
+        { "title": "Louvre Museum Tour", "time": "2:00 PM" },
+        { "title": "Seine River Dinner Cruise", "time": "7:30 PM" }
+      ]
+    },
+    {
+      "location": "Rome",
+      "arrivalDate": "2026-07-05",
+      "departureDate": "2026-07-10",
+      "activities": [
+        { "title": "Colosseum Guided Tour", "time": "9:00 AM" },
+        { "title": "Vatican Museums", "time": "1:00 PM" },
+        { "title": "Trastevere Food Walk", "time": "6:30 PM" }
+      ]
+    }
+  ]
+}
