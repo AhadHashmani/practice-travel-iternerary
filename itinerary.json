@@ -12,6 +12,10 @@
       "location": "Paris",
       "arrivalDate": "2026-07-01",
       "departureDate": "2026-07-05",
+      "transportation": {
+        "type": "plane",
+        "cost": "1500"
+      },
       "activities": [
         { "title": "Eiffel Tower Visit", "time": "10:00 AM" },
         { "title": "Louvre Museum Tour", "time": "2:00 PM" },
@@ -22,11 +26,28 @@
       "location": "Rome",
       "arrivalDate": "2026-07-05",
       "departureDate": "2026-07-10",
+      "transportation": {
+        "type": "train",
+        "cost": "75"
+      },
       "activities": [
         { "title": "Colosseum Guided Tour", "time": "9:00 AM" },
         { "title": "Vatican Museums", "time": "1:00 PM" },
         { "title": "Trastevere Food Walk", "time": "6:30 PM" }
       ]
+    },
+        {
+        "city": "New York",
+        "arrivalDate": "2026-11-27",
+        "departureDate": "2026-12-03",
+        "transportation": {
+        "type": "subway",
+        "cost": "15"
+      },
+        "activities": [
+            {"title": "dinner", "time": "6pm"},
+            {"title": "skating", "time": "8pm"}
+            ]
     }
   ]
 }
